@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天上人间/Heaven and Earth/Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Heaven and Earth Resort</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/swiss-valley.jpg" alt="Placeholder: Beautiful Mountain/好看的山">
+    </section>
+
+    <main>
+        <section class="contact-intro">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <p>Required fields marked with a <span>*</span></p>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="contact-form-top">
+                <div class="contact-image">
+                    <img src="images/swiss-peak.jpg" alt="Beautiful Mountain/好看的山" >
+                </div>
+            </div>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <div class="contact-form">
+                    <div class="form1">
+                        <label for="fullname">Full Name <span>*</span></label>
+                        <input type="text" id="fullname" name="fullname" required>
+
+                        <label for="email">Email Address <span>*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="xxx@xxx.com">
+
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form2">
+                        <fieldset>
+                            <legend>Preferred Contact Method <span>*</span></legend>
+                            <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                            <label for="contact-email">Email</label>
+                            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                            <label for="contact-phone">Phone</label>
+                        </fieldset>
+
+                        <label for="comments">Comments <span>*</span></label>
+                        <textarea id="comments" name="comments" required></textarea>
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2025 - Heaven and Earth</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+</html>
+

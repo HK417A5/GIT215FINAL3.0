@@ -1,0 +1,238 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+body {
+    font-family: 'Roboto', 'Arial', 'serif';
+    font-size: 1rem;
+    color: #0f0f0f;
+    background-color:  #f9f9f9;
+    line-height: 1.6;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    text-shadow: 5px 5px 8px #0f0f0f;
+}
+
+
+/* navigation  */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+
+nav a:hover {
+    color: #86b3c2;
+    text-decoration: underline;
+}
+
+/* picture swiss-valley.jpg */
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    border: 4px solid #0d8cf3;
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+/* Introduction Text index page*/
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*  index page / arrangement */
+.content {
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/*  index page swiss-chalet.jpg/snowy-chalet.jpg */
+.content img {
+    width: 400px;
+    height: auto;
+    border: 4px solid #0d8cf3;
+    border-radius: 10px;
+}
+
+
+/* Introduction Text/ contact page*/
+.contact-intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-box {
+    border: 2px solid #0d8cf3; 
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+
+/* Overall framework of the table/ contact page*/
+.contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+
+
+/* swiss-peak.jpg/ contact page*/
+.contact-form-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+/* swiss-peak.jpg/ contact page*/
+.contact-image img {
+    width: 500px;
+    height: 500px;
+    height: auto;
+    border: 4px solid #0d8cf3;
+    border-radius: 10px;
+}
+
+
+/*tabular/ contact page*/
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/*.form/ contact page*/
+.form1, .form2 {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*option/ contact page*/
+form fieldset {
+    border: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+form label {
+    font-weight: bold;
+}
+/*input text */
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/*red *  */
+.contact-intro p span {
+    color: #f70909;
+}
+
+form label span {
+    color: #f70909;
+}
+
+form legend span {
+    color: #f70909;
+}
+
+
+/*button */
+form button {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #a8c9d6;
+    font-size: 1em;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #86b3c2;
+    transform: scale(1.3);
+
+}
+
+
+/*footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid  #f9f9f9;
+    margin-top: 40px;
+}
+
+
+
+
+
